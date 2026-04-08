@@ -1,0 +1,21 @@
+# Segmentos y playlists generados en runtime
+hls/
+
+# Logs
+logs/
+
+# Configuración con datos sensibles (IP, credenciales)
+config/hls.json
+
+# Python cache
+panel/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Systemd units generados (se crean con install.sh)
+# No incluir — son locales a cada máquina
+
+# Temporales
+*.tmp
+*.bak
